@@ -8,18 +8,21 @@
 <meta name="description" content="This is a demo.">
 <!-- A brief description of the page, useful for SEO. && social media sharing ,When the page is shared on social media, this description may appear as part of the preview -->
 <title>My Web Page</title>
-<link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file for styling. -->
+<link rel="stylesheet" href="style.css"> <!-- Link to an external CSS file for styling. -->
 <script src="script.js" defer></script>
 <!-- Link to an external JavaScript file. The 'defer' attribute ensures the script is executed after the document has been parsed. -->
 <link rel="icon" href="images.jpg" type="image/x-icon">
 
+<style>
+ 
+</style>
 <body>
    <header>
       <h1>Welcome to Login</h1>
    </header>
 
    <main>
-      <p>This is a simple web page.</p>
+      
       <div>
          <form action="post">
             <label for="username">Username:</label>
@@ -28,7 +31,7 @@
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
 
-            <button type="submit">Login</button>
+            
       </div>
       <div>
          <label for="remember-me">
@@ -54,14 +57,49 @@
          </select>
       </div>
       <div>
-         <label for="bio">Bio:</label>
-         <textarea id="bio" name="bio" rows="4" cols="50"></textarea>
+         <label for="bio">Bio:</label><br/>
+         <textarea id="bio" name="bio" rows="4" cols="50">  </textarea>
       </div>
-   </main>
+      <div>
+         <label for="file-upload">Upload a file:</label>
+         <input type="file" id="file-upload" name="file-upload">
+      </div>
+      <div>
+         <button type="submit">Login</button>
+         <button type="reset">Reset</button>
+      </div>
+  
+   <div>
+      
+    <p>im anoter para</p>
+    <P> im 3rd para </P>
+   </div>
+  <div>
+   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, illo! Tempora quos rerum consequatur, 
+      dolores expedita voluptatem culpa beatae. Saepe ducimus repellendus vitae odio quibusdam quis hic velit illo! Cumque!</p>
+      <p> im sencod para </p>
+      <p> im 3rd para </p>
+  </div>
 
-   <footer>
-      <p>&copy; 2023 My Web Page</p>
-   </footer>
+
+
+ <div class="card">
+   <h2>Mussoorie Trip</h2>
+   <!-- <h4>Mussoorie is a city in the southern part of India, known for its rich cultural heritage and historical significance.</h4> -->
+  <div class="image">
+   <img width =150 src = "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0a/c8/39/29.jpg" alt="mussoorie" >
+   <p>Mussoorie is a popular hill station in India, located in the northern state of Uttarakhand. It is known for its scenic beauty, pleasant weather, and colonial architecture. The town is situated at an altitude of approximately 2,000 meters (6,600 feet) above sea level and offers stunning views of the surrounding mountains and valleys.</p>
+
+   <button class="button">Read More</button>
+</div>
+ </div>  
+
+
+
+
+</main>
+
+   
 </body>
 
 </html>
