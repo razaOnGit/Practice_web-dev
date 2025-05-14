@@ -5,46 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar Flexbox</title>
-    <style>
-        .logo {}
-
-        .logo img {
-            width: 120px;
-            height: 100px;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        .right ul {
-            display: flex;
-            gap: 15px;
-
-        }
-
-        .right ul li {
-            list-style: none;
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-
-        }
-
-        .right ul li span {
-            font-size: 16px;
-            color: #141B34;
-            font-weight: 500;
-            padding: 0px 5px;
-        }
-    </style>
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<section>
     <header>
         <nav>
             <div class="logo">
@@ -83,13 +47,70 @@
                     </li>
                     <li>
                         <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="">
-            </li>
-            </ul>
-             </div>
-
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
+    <main>
+        <Section class="first">
+            <span> <b><u>Experience the Power of Excellence </u></b>
+                <img height=60px width="50px" src="https://www.workelate.com/images/header/workelate-logo.svg"
+                    alt="Logo"> </span>
+            <div>
+                <P> <b>TaskNetic </b>is a cutting-edge software tool designed to streamline task management and
+                    deployment processes for teams and organizations.
+                    The tool allows team members to communicate, collaborate, and share updates on tasks, leading to
+                    increased productivity and efficiency.
+
+                </P>
+            </div>
+            <div>
+                <button class="btn"> Try our suite Apps</button>
+            </div>
+        </Section>
+        <section class="second">
+
+         <div class="grid">
+                    <div class="item">
+                        <div class="item-lang"> English</div>
+                        <button class="btn blue">Download 32bit </button>
+                        <button class="btn green">Downlaod 64bit</button>
+                   
+                </div>
+                  
+                    <div class="item">
+                        <div class="item-lang"> English</div>
+                        <button class="btn blue">Try ai Model</button>
+                        <button class="btn green">Try Data Science</button>
+                   
+                </div>
+                  
+                    <div class="item">
+                        <div class="item-lang"> English</div>
+                        <button class="btn blue">Try ai Model</button>
+                        <button class="btn green">Try Data Science</button>
+                   
+                </div>
+                  
+                    <div class="item">
+                        <div class="item-lang"> English</div>
+                        <button class="btn blue">Try ai Model</button>
+                        <button class="btn green">Try Data Science</button>
+                   
+                </div>
+                  
+                    <div class="item">
+                        <div class="item-lang"> English</div>
+                        <button class="btn blue">Try ai Model</button>
+                        <button class="btn green">Try Data Science</button>
+                   
+                </div>
+    </div>
+  
+</section>
+  </main>
 </body>
 
 </html>
