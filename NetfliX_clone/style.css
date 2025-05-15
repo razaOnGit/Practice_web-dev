@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(images/bgImage.jpg);
+
+    height: 80vh;;
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.4;
+    background-color: black;
+}
