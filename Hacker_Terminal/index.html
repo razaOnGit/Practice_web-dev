@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: #09c448;
+        color: white;
+        font-size: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div> Initializing Hacking ...
+
+    </div>
+
+    <script>  
+    
+    const addItem = async(item)=>{
+        await randomDelay();
+        let div =document.createElement("div");
+        div.innerHTML =item;
+        document.body.append(div)
+
+    }
+    const randomDelay = ()=>{
+        return new Promise((resolve, reject)=>{
+        timeout = 1 + 2 * Math.random();
+    setTimeout(()=> {
+        resolve();
+    }  ,timeout * 10000);
+    })
+    }
+ await function main(){
+
+
+    
+     setInterval(() =>{
+    let last = document.body.lastElementChild;
+    last.innerHTML = last.innerHTML + "."
+    } ,700);
+
+
+     let text=[   " Initialized Hacking now reading your data files " ,
+        "Reading your Files "  , 
+       " Hacking your System " , 
+       " Sending all password and personal files to server " ,
+        "Cleaning up "  ]
+    for(const item of text){
+       await addItem(item)
+    }
+}
+main()
+    </script>
+</body>
+</html>
