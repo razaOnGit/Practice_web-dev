@@ -1,0 +1,95 @@
+*{
+    margin: 4px;
+    padding: 5px;
+}
+/* .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+h2{
+    color: #c70b0b;
+
+    margin: 5px;
+    padding: 0px ;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.label{
+    color: #a80a0a;
+}
+#username{
+    width: 100%;
+    height: 25px;
+}
+#password{
+    width: 100%;
+    height: 25px;
+}
+#accept{
+    display:flex;
+    flex-direction: column-reverse;
+}
+.remember-me{
+    display: flex;
+    margin:auto;
+    padding: 5px;   
+    
+}
+#box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.login button{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    font-weight: 500px;
+    background-color: aqua;
+     cursor: pointer;
+}
+.signup button{
+    background-color: rgb(135, 183, 86);
+    border:2px solid rgb(135, 183, 86);
+    padding: 10px 60px;
+    cursor: pointer;
+
+}
+
+.signup  p a {
+  background-color: #a80a0a;
+   border: 2px solid #0b0b0b;
+   border-radius: 5px;
+   display: inline-block;
+    padding: 6px 16px;
+    color: white;
+
+}
+.signup p a:hover {
+    background-color: #c524b7;
+   
+    color: white;
+}
+
+button{
+    border: 2px solid #0b0b0b;
+   border-radius: 5px;
+   display: inline-block;
+    padding: 6px 16px;
+    color: white;
+
+}
+button:hover{
+    background-color: #c524b7;
+}
