@@ -6,6 +6,7 @@ function login(){
         } else {
             alert("Invalid username or password");
             }
+console.log(login)
           }
 
 function signup(){
@@ -21,5 +22,5 @@ function signup(){
         } else {
             alert("You have been signed up");
             }
-     
+   console.log(signup)  
           }
