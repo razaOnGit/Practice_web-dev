@@ -1,30 +1,37 @@
-  
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Dashboard</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  
+
   <div class="login">
-<h2> Login </h2>
-        <label> Username
-            <input type="username" id="username" placeholder="Enter your Email Address" requierd>
-        </label><br>
-        <label> Password
-            <input type="password" id="password" placeholder="Enter your Password" required>
-        </label>
-         <div class="remember-me">  
-        <input type="checkbox" id="accept" required >
-       <label for="accept" id="box">Remember me</label></div>
-        <button type="button" onclick="login()">Login</button>
+    <h2> Login </h2>
+    <label> Username
+      <input type="username" id="username" placeholder="Enter your Email Address" requierd>
+    </label><br>
+    <label> Password
+      <input type="password" id="password" placeholder="Enter your Password" required>
+    </label>
+    <div class="remember-me">
+      <input type="checkbox" id="accept" required>
+      <label for="accept" id="box">Remember me</label>
+    </div>
+    <button id="button" onclick="login()">Login</button>
 
-</div>
-
+  </div>
+  <script>
+    let btn = document.getElementById("button");
+    btn.addEventListener("click", function () {
+      alert("Login successful");
+      window.location.href = "dashboard.html";
+    });
+  </script>
 </body>
+
 </html>
