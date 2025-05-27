@@ -34,7 +34,21 @@
 
         <p>Already have an account? <a href="login.html">Login here</a></p>
 </form>
+<script>
+    let btn = document.querySelector("button");
+    btn.addEventListener("click", function () {
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+        let resume = document.getElementById("resume").value;
 
+        if (username && password && resume) {
+            alert("Registration successful");
+            window.location.href = "login.html";
+        } else {
+            alert("Please fill in all fields");
+        }
+    });
+</script>
 </body>
 
 </html>
