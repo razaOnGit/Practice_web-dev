@@ -1,0 +1,24 @@
+.Card{
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+}
+.Card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    gap:5px;
+    margin: 20px 10px;
+}
+.Card button:hover {
+    background-color: #b30000;
+}
